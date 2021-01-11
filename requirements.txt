@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+biopython
+intermine
+seaborn
+scipy
+statsmodels
+nbgitpuller
+openpyxl
