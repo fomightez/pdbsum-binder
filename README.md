@@ -1,7 +1,7 @@
 # pdbsum-binder
 Analysis of PDBsum-related data via active Jupyter sessions provided via MyBinder.org. Adapt the demonstrations to analyze your favorite structures.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/main?filepath=index.ipynb)
 
 
 *tl;dr:*  
@@ -53,4 +53,4 @@ This repository is set up to make use of the binder service offered by [MyBinder
 
 Click `launch binder` below to start using the demonstrations.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/main?filepath=index.ipynb)
