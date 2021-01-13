@@ -50,6 +50,7 @@ I, Wayne, did share Jupyter/Python-based utilities for use with the data availab
 
 This repository is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
 
+I borrrowed the 'warning' highlight/introductory text about notebooks at the top of the included notebook from Tim Sherratt's notebook [here](https://github.com/GLAM-Workbench/te-papa-api/blob/master/Exploring-the-Te-Papa-collection-API.ipynb).
 
 Click `launch binder` below to start using the demonstrations.
 
