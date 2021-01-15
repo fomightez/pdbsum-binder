@@ -9,3 +9,4 @@ statsmodels
 nbgitpuller
 openpyxl
 sh
+snakemake
