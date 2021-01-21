@@ -10,3 +10,4 @@ nbgitpuller
 openpyxl
 sh
 snakemake
+jupytext
