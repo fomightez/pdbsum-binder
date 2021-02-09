@@ -11,3 +11,4 @@ openpyxl
 sh
 snakemake
 jupytext
+BeautifulSoup4
