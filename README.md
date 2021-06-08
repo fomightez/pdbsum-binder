@@ -37,12 +37,13 @@ Users of PDBsum-sourced data should probably cite:
 
 The PDBsum author/develops contact information is [here](http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?doc=TRUE&template=contactus.html&pdbcode=n/a).
 
-I, Wayne, did share Jupyter/Python-based utilities for use with the data available from PDBsum; these are available [here](https://github.com/fomightez/structurework/tree/master/pdbsum_utilities) and utilized in the notebooks in this repository to process data and allow easily converting the results to other forms.
+I, Wayne, did share Jupyter/Python-based utilities for use with the data available from PDBsum; these are available [here](https://github.com/fomightez/structurework/tree/master/pdbsum-utilities) and utilized in the notebooks in this repository to process data and allow easily converting the results to other forms.
+
 
 
 ## Related
 
-- My [pdbsum_utilities sub-repo](https://github.com/fomightez/structurework/tree/master/pdbsum_utilities)
+- My [pdbsum_utilities sub-repo](https://github.com/fomightez/structurework/tree/master/pdbsum-utilities)
 
 - See [here](https://github.com/fomightez/structurework#related-binderized-utilities) for a listing of resources in a similar vein yet targeted to macromolecular structure data. In particular, see [cl_demo-binder](https://github.com/fomightez/cl_demo-binder) for the companion set to this one.
 
