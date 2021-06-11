@@ -33,7 +33,7 @@
 #-------------------------
 # 
 # 
-# See the accompanying notebook entitled??? for a demo.
+# See the accompanying notebook entitled `Using snakemake to highlight changes in multiple protein-protein interactions via PDBsum data.ipynb` for a demo.
 # This file can be run after making the text table `int_matrix.txt` by calling
 # `!snakemake -j1` from inside a jupyter notebook or run via `snakemake` on the 
 # command line.
