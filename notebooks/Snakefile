@@ -13,7 +13,7 @@
 # The text would be actual PDB codes and chain designations.
 # The order of the chain designations after each structure's PDB code should 
 # match , meaning the designation of `chain#1` following `PDB_code#1` 
-# corresponds to the same `chain#1` after `PDBcode#2`, with similar arrangment 
+# corresponds to the same `chain#1` after `PDBcode#2`, with similar arrangement 
 # holding for chain#2. 
 # To help claify that, the following code between the dashed lines
 # can have the starting `#`s removed at the start of each line and that code can 
