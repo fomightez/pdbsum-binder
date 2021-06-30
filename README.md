@@ -47,6 +47,8 @@ I, Wayne, did share Jupyter/Python-based utilities for use with the data availab
 
 - See [here](https://github.com/fomightez/structurework#related-binderized-utilities) for a listing of resources in a similar vein yet targeted to macromolecular structure data. In particular, see [cl_demo-binder](https://github.com/fomightez/cl_demo-binder) for the companion set to this one.
 
+- The path to getting the interaction details shown in the notebooks in this repo that relies on PDBsum data, gets used in the pipeline for the notebook [Report if residues interacting with a specific chain have equivalent residues in an hhsuite-generated alignment](https://nbviewer.jupyter.org/github/fomightez/hhsuite3-binder/blob/main/notebooks/Report%20if%20residues%20interacting%20with%20a%20specific%20chain%20have%20equivalent%20residues%20in%20an%20hhsuite-generated%20alignment.ipynb) that can be run in launches from the [hhsuite3-binder](https://github.com/fomightez/hhsuite3-binder). There is a version built on that which uses snakemake to process several combinations of structures and chains all once and make a report for each desired pair that also relies on this path,
+
 ## Technical notes
 
 This repository is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). See their site for more information about Binder.
