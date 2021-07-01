@@ -23,7 +23,7 @@ PDBsum itself is accessible online [here](http://www.ebi.ac.uk/thornton-srv/data
 Usage
 -----
 
-This repository is set up to allow analysis of PDVsum-related data after pressing the `launch binder` button above or below. The target use case is where you want to be thorough in your analyses with the add of compuatation or analyze multiple structures. You shouldn't need to install anything.
+This repository is set up to allow analysis of PDBsum-related data after pressing the `launch binder` button above or below. The target use case is where you want to be thorough in your analyses with the add of compuatation or analyze multiple structures. You shouldn't need to install anything.
 
 In the notebooks that can be launched, I have added some examples illustrating how to get data and process ir easily with Python and convert to other forms. Alternatively, the notebooks with most of resources can be viewed statically and [nbviewer](https://nbviewer.jupyter.org/) is recommended for that as discussed above.
 
