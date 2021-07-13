@@ -325,7 +325,7 @@ rule convert_scripts_to_nb_and_run_using_jupytext:
 '''
 Snamemake adds a preamble cell when used to run the notebook. This will remove 
 first cell from each notebook using nbformat.
-THIS WAS ONLY NECESSARY WHEN I WAS HOPING TO USE SNAKEMAKES INTERNAL NOTEBNOOK
+THIS WAS ONLY NECESSARY WHEN I WAS HOPING TO USE SNAKEMAKES INTERNAL NOTEBOOK
 HANDLING TO RUN THEM BUT THE WILDCARDS WITH NOTEBOOKS PROVED MORE COMPLEX.
 WHAT I HAD
 rule remove_preamble_cell:
