@@ -45,7 +45,7 @@ I, Wayne, did share Jupyter/Python-based utilities for use with the data availab
 
 - My [pdbsum-utilities sub-repo](https://github.com/fomightez/structurework/tree/master/pdbsum-utilities)
 
-- My repo [pdbepisa-binder](https://github.com/fomightez/pdbepisa-binder) demonstrates scripts from my [pdbepisa-utilities sub-repo](https://github.com/fomightez/structurework/tree/master/pdbepisa-utilities) that enable handling data from [PDBePISA](https://www.ebi.ac.uk/pdbe/pisa/) with Jupyter/Python. Importantly, data from that site will summarize interface surface area between **ALL CHAINS** of a structure, even proteina and nucleic acid chains, and may be additionally helpful if you are studying a deoxyribonucleic- or ribonucleic-complex.
+- My repo [pdbepisa-binder](https://github.com/fomightez/pdbepisa-binder) demonstrates scripts from my [pdbepisa-utilities sub-repo](https://github.com/fomightez/structurework/tree/master/pdbepisa-utilities) that enable handling data from [PDBePISA](https://www.ebi.ac.uk/pdbe/pisa/) with Jupyter/Python. Importantly, data from that site will summarize interface surface area between **ALL CHAINS** of a structure, even protein and nucleic acid chains, and may be additionally helpful if you are studying a deoxyribonucleic- or ribonucleic-complex.
 
 - See [here](https://github.com/fomightez/structurework#related-binderized-utilities) for a listing of resources in a similar vein yet targeted to macromolecular structure data. In particular, see [cl_demo-binder](https://github.com/fomightez/cl_demo-binder) for the companion set to this one.
 
