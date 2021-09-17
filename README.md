@@ -33,7 +33,7 @@ Users of [PDBsum](http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/Get
 
 - [Laskowski RA, Jabłońska J, Pravda L, Vařeková RS, Thornton JM. 2018. PDBsum: Structural summaries of PDB entries. Protein Sci. 27(1):129-134. doi: 10.1002/pro.3289. Epub 2017 Oct 27. PMID: 28875543](https://pubmed.ncbi.nlm.nih.gov/28875543/)
 
-***Clarifying Software Attribution: I, Wayne, am not involved with PDBsum in any way. The Thorton Research Group at EBI are the developers and maintainers of PDBsum,  see [their materials](https://www.ebi.ac.uk/research/thornton). I simply set up this repository to make analysis of the data easier without installation headaches.***
+***Clarifying Software Attribution: I, Wayne, am not involved with PDBsum in any way. The Thorton Research Group at The European Bioinformatics Institute (EMBL-EBI) are the developers and maintainers of PDBsum, see [their materials](https://www.ebi.ac.uk/research/thornton). I simply set up this repository to make analysis of the data easier without installation headaches.***
 
 The [PDBsum](http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?pdbcode=index.html) author/develops contact information is [here](http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?doc=TRUE&template=contactus.html&pdbcode=n/a).
 
