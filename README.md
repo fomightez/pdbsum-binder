@@ -1,7 +1,7 @@
 # pdbsum-binder
 Analysis of PDBsum-related data via active Jupyter sessions provided via MyBinder.org. Adapt the demonstrations to analyze your favorite structures.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/main?urlpath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/main?urlpath=%2Fnotebooks%2Findex.ipynb)
 
 
 *tl;dr:*  
@@ -59,4 +59,4 @@ I borrrowed the 'warning' highlight/introductory text about notebooks at the top
 
 Click `launch binder` below to start using the demonstrations.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/main?urlpath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/pdbsum-binder/main?urlpath=%2Fnotebooks%2Findex.ipynb)
