@@ -66,12 +66,12 @@ import pandas as pd
 import nbformat as nbf
 
 # INPUT COMPARISON MATRIX/ TABLE------------------------------------------------
-# User's provide the information as table for the comparisons to do. See above
+# Users provide the information as table for the comparisons to do. See above
 # for the format of that.
 # I'm bringing it in here so that I can generate the names of the notebooks that
-# need to be made. So that I can use these in snakemake as output and later even
+# need to be made. So that I can use these in snakemake as input and later even
 # as output.
-# For now the file with the table must be named named `int_matrix.txt`.
+# For now the file with the table must be named `int_matrix.txt`.
 
 table_file_to_use  = "int_matrix.txt" # name of the table with info on each
 # row to make a Jupyter notebook with the reports
