@@ -263,9 +263,9 @@ https://carpentries-incubator.github.io/workflows-snakemake/03-wildcards/index.h
 rule read_table_and_create_py:
     input:
         table_file_to_use,
-        pdbsum_prot_interactions_list_to_df.py,
-        differences_in_proteinprotein_interactions.py,
-        similarities_in_proteinprotein_interactions.py
+        'pdbsum_prot_interactions_list_to_df.py',
+        'differences_in_proteinprotein_interactions.py',
+        'similarities_in_proteinprotein_interactions.py'
     output: py_files
     run:
         for indx,row in df.iterrows():
