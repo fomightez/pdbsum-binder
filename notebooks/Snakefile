@@ -96,6 +96,25 @@ for indx,row in df.iterrows():
 unprocessed_nb_files = [f"unprocessed_{x}" for x in nb_files]
 
 
+# GET THE SCRIPTS THAT WILL MAKE DATAFRAMES-------------------------------------
+# This way they can be used as input to a rule and if they are changed the
+# approrpriate parts of the workdlow will be rerun.
+file_needed = "pdbsum_prot_interactions_list_to_df.py"
+if not os.path.isfile(file_needed):
+    os.system("curl -OL https://raw.githubusercontent.com/"\
+        "fomightez/structurework/master/"\
+        f"pdbsum-utilities/{file_needed}")
+file_needed = "differences_in_proteinprotein_interactions.py"
+if not os.path.isfile(file_needed):
+    os.system("curl -OL https://raw.githubusercontent.com/"\
+        "fomightez/structurework/master/"\
+        f"pdbsum-utilities/{file_needed}")
+file_needed = "similarities_in_proteinprotein_interactions.py"
+if not os.path.isfile(file_needed):
+    os.system("curl -OL https://raw.githubusercontent.com/"\
+        "fomightez/structurework/master/"\
+        f"pdbsum-utilities/{file_needed}")
+
 
 
 
@@ -235,8 +254,18 @@ rule clean:
 
 
 # Use the table & make a Python script that will be used later to make notebook
+'''
+By including the python scripts as input, this rule will be run 
+again if the scripts are edited. (See about `wordcount.py` under 
+'Handling dependencies differently' as 
+https://carpentries-incubator.github.io/workflows-snakemake/03-wildcards/index.html
+'''
 rule read_table_and_create_py:
-    input: table_file_to_use
+    input:
+        table_file_to_use,
+        pdbsum_prot_interactions_list_to_df.py,
+        differences_in_proteinprotein_interactions.py,
+        similarities_in_proteinprotein_interactions.py
     output: py_files
     run:
         for indx,row in df.iterrows():
