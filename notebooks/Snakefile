@@ -302,10 +302,10 @@ rule read_table_and_create_py:
 # so that the quotes didn't mess up the stub being a long docstring:
 #!jupytext --to py pdbsum_simple_report_template.ipynb
 # NOTES FOR USING JUPYTEXT IN THIS PROCESS
-# To convery a script to a notebook without running it; help at 
+# To convert a script to a notebook without running it; help at 
 # https://jupytext.readthedocs.io/en/latest/using-cli.html
 # !jupytext --to notebook pdbsum_simple_report_template.py --output zzz.ipynb
-# To convery a script to a notebook and run it at same time
+# To convert a script to a notebook and run it at same time
 #!jupytext --to notebook --execute pdbsum_simple_report_template.py --output zzz.ipynb
 
 
