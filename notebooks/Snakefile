@@ -294,7 +294,7 @@ rule read_table_and_create_py:
 # that I thought I'd be able to paste into here because it worked in 
 # `bendIt_analysis.py`.
 # After pasted in here and the docstring in the function (see below) fixed, I 
-# replaced the items that well be swapped in for the individual notebooks with 
+# replaced the items that will be swapped in for the individual notebooks with 
 # unique placeholders.
 # Converted the template notebook `pdbsum_simple_report_template.ipynb` to a 
 # Python script I can paste in here using AFTER DELETING A DOCSTRING for the
