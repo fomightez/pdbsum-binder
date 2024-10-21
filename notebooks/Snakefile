@@ -98,7 +98,7 @@ unprocessed_nb_files = [f"unprocessed_{x}" for x in nb_files]
 
 # GET THE SCRIPTS THAT WILL MAKE DATAFRAMES-------------------------------------
 # This way they can be used as input to a rule and if they are changed the
-# approrpriate parts of the workdlow will be rerun.
+# approrpriate parts of the workflow will be rerun.
 file_needed = "pdbsum_prot_interactions_list_to_df.py"
 if not os.path.isfile(file_needed):
     os.system("curl -OL https://raw.githubusercontent.com/"\
